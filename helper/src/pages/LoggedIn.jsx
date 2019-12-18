@@ -1,6 +1,5 @@
 import React from 'react';
 import Bar from "./components/Bar";
-import Form from "./components/Form";
 import BottomBar from "./components/BottomBar";
 
 class PageContent extends React.Component{
@@ -8,9 +7,9 @@ class PageContent extends React.Component{
 		return(
 			<div>
 				<div class="contentBody">
-					<p>Help Us Help The world and leave suggestions! </p>
-					<Form description="" className="suggestions"/>
-					<input type="submit" value="Submit" />
+					<br />
+					<br />
+					<p> Sorry, but we were unable to perform your request, as we are unable to authenticate users on desktop yet! </p>
 				</div>
 			</div>
 		);

@@ -36,7 +36,7 @@ class Form extends React.Component {
 	render() {
 		return (
 			<form onSubmit={this.handleSubmit}>
-				<label class="SignUpForm">
+				<label class={this.props.className}>
 					{this.props.description}
 					<input type="text" value={this.state.name} onChange={this.handleChange} />
 					<br/>
