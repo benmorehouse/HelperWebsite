@@ -1,0 +1,215 @@
+html{
+	background-color:lightgrey;
+}
+
+h1{
+	color:white;
+	border-color:black;
+	font-size:30px;
+	font-family:"Hiragino Sans";
+}
+
+p{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	font-size:10px;
+	font-family:"Hiragino Sans";
+}
+
+.HelperLogoButton{
+	background-color:#8772FE;
+	border-color:#8772FE;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:-10px;
+	border-radius:25px;
+}
+
+.HelperLogoImage{
+	width:30px;
+	max-height:30px;
+	border-radius:25px;
+}
+
+.HelperLogoButton > img:hover{
+	opacity:.5;
+}
+
+.HelperLogoButton:focus{
+	outline: none !important;
+	outline-offset: none !important;
+}
+
+.AppStoreLogoButton{
+	background-color:#8772FE;
+	border-color:#8772FE;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	border-radius:25px;
+	visibility:none;
+}
+
+.AppStoreLogoImage{
+	width:30px;
+	max-height:30px;
+}
+
+.AppStoreLogoButton > img:hover{
+	opacity:.5;
+}
+
+.AppStoreLogoButton:focus{
+	outline: none !important;
+	outline-offset: none !important;
+}
+
+.InstagramLogoButton{
+	background-color:#8772FE;
+	border-color:#8772FE;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:-10px;
+	border-radius:25px;
+	visibility:none;
+}
+
+.InstagramLogoImage{
+	width:30px;
+	max-height:30px;
+	border-radius:25px;
+}
+
+.InstagramLogoButton > img:hover{
+	opacity:.5;
+}
+
+.InstagramLogoButton:focus{
+	outline: none !important;
+	outline-offset: none !important;
+}
+
+.contentBody{
+	border-radius:10px;
+	width:700px;
+	min-height:600px;
+	background-color:white;	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Title{
+	padding-bottom:50px;
+	padding-left:380px;
+	font-size:10px;
+	font-family:"Hiragino Sans";
+}
+
+.Title > h1{
+	padding-left:300px;
+	padding-right:75px;
+}
+
+.UpperBar{
+	box-shadow: 10px 10px 5px grey;	
+	height:110px;
+	background-color: #8772FE;
+	margin-left:-30px;
+	margin-right:-30px;
+	margin-top:-20px;
+	margin-bottom:-30px;
+	text-align:center;
+}
+
+.bar{
+	text-align:center;
+	margin-left:-30px;
+	margin-right:-30px;
+	margin-top:-50px;
+	height:50px;
+	background-color:lightgrey;
+	padding-bottom:10px;
+}
+
+.Barbutton{
+	margin-left:5px;
+	margin-right:5px;
+	text-align:center;
+	width:100px;
+	height:20px;
+	background-color:White;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	border-color:white;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Barbutton:hover{
+	background-color:#8772FE;
+}
+
+.Barbutton:focus{
+	outline: none !important;
+	outline-offset: none !important;
+}
+
+.barbuttonWrapper{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+img{
+	max-width:100px;
+	height:200px;
+}
+
+.JSBullet > img{
+	float:left;
+	padding:10px;
+	max-width:100px;
+}
+
+#screenshots{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+}
+
+.paragraph{
+	border-radius:10px;
+	width:680px;	
+	background-color:white;	
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.SignUpForm{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:300px;
+}
+
+.Bottombar{
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	height:10px;
+	width: 100%;
+	background-color: #8772FE;
+	color: white;
+	text-align: center;
+}
+
